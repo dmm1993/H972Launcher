@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //weather type
+    <array name="sunny_weather">
+        <item>"Clear"</item>
+        <item>"Sunny"</item>
+        <item>"Hot"</item>
+        <item>"Mostly Sunny"</item>
+        <item>"Mostly Clear"</item>
+    </array>
+
+    <array name="rain_weather">
+        <item>"Rain"</item>
+        <item>"Shower"</item>
+        <item>"Partly sunny with showers"</item>
+        <item>"Partly sunny with thundershowers"</item>
+        <item>"Thunderstorms"</item>
+    </array>
+
+    <array name="cloudy_weather">
+        <item>"Cloudy"</item>
+        <item>"Mostly Cloudy"</item>
+        <item>"partly sunny with Cloudy"</item>
+        <item>"Cold"</item>
+        <item>"Fog"</item>
+    </array>
+
+    <array name="windy_weather">
+        <item>"Windy"</item>
+        <item>"Mostly Windy"</item>
+    </array>
+
+    <array name="snow_weather">
+        <item>"Snow"</item>
+        <item>"Ice"</item>
+        <item>"Flurries"</item>
+        <item>"Rain And Snow Mixed"</item>
+        <item>"Partly Sunny With Flurries"</item>
+    </array>
+</resources>

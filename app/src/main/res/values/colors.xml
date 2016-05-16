@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color> <!-- 白色 -->
+    <color name="darkgray">#A9A9A9</color><!--暗灰色 -->
+    <color name="gray">#808080</color><!--灰色 -->
+    <color name="dimgray">#696969</color><!--暗灰色 -->
+    <color name="darkslategray">#2F4F4F</color><!--暗瓦灰色 -->
+    <color name="play_button_bg">#45699F</color>
+    <color name="royalblue">#4169e1</color> <!-- 皇家蓝 -->
+    <color name="blue">#3366cc</color> <!-- 蓝色 -->
+    <color name="orange">#ffa500</color> <!-- 橙色 -->
+    <color name="dark">#FF222222</color>
+    <color name="custom_transparent">#00000000</color>
+    <color name="silver">#C0C0C0</color>
+
+    <color name="Azure">#18B4ED</color>
+    <color name="white_drak">#D0EFFA</color>
+    <color name="mWhite">#FFFFFF</color>
+</resources>

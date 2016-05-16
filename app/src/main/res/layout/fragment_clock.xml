@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    xmlns:dmm="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper_clock1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:persistentDrawingCache="animation"
+        android:flipInterval="1000">
+    </ViewFlipper>
+
+    <com.kct.launcher.h972launcher.view.MultiDirectionSlidingDrawer
+        android:id="@+id/drawerTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        dmm:content="@+id/contentTop"
+        dmm:direction="topToBottom"
+        dmm:handle="@+id/handleTop">
+
+        <com.kct.launcher.h972launcher.view.TopDrawer
+            android:id="@id/contentTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@id/handleTop"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+    </com.kct.launcher.h972launcher.view.MultiDirectionSlidingDrawer>
+
+    <com.kct.launcher.h972launcher.view.MultiDirectionSlidingDrawer
+        android:id="@+id/drawerBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        dmm:content="@+id/contentBottom"
+        dmm:direction="bottomToTop"
+        dmm:handle="@+id/handleBottom">
+
+        <com.kct.launcher.h972launcher.view.BottomDrawer
+            android:id="@id/contentBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@id/handleBottom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+    </com.kct.launcher.h972launcher.view.MultiDirectionSlidingDrawer>
+</FrameLayout>
+
+

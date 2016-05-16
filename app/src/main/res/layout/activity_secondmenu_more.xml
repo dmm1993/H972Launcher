@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tools_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    android:clipChildren="false">
+
+    <TextView
+        style="@style/currency_title_style"
+        android:id="@+id/second_menu_title_more"
+        android:text="@string/tools_text" />
+
+
+    <com.kct.launcher.h972launcher.view.MultiViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:matchChildWidth="@+id/vg_cover">
+    </com.kct.launcher.h972launcher.view.MultiViewPager>
+
+    <me.relex.circleindicator.CircleIndicator
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/circle_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        app:ci_width="8dp"
+        app:ci_height="8dp"
+        app:ci_margin="6dp"
+        app:ci_drawable="@drawable/blue_radius"
+        android:layout_marginBottom="@dimen/spacing_large">
+    </me.relex.circleindicator.CircleIndicator>
+
+</RelativeLayout>
